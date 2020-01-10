@@ -1,4 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
 * {
     color: #616161;
     box-sizing: border-box;
@@ -26,7 +25,7 @@ h2 {
     font-size: 20px;
 }
 
-้h1,h2 {
+้ h1, h2 {
     font-weight: lighter;
 }
 
@@ -67,7 +66,9 @@ label {
     border-radius: 2px;
     font-size: 14px;
     cursor: pointer;
-   
+    background: #1976d2;
+    color: white;
+    border: none;
 }
 
 .button:hover,button:hover {
@@ -87,6 +88,7 @@ label {
 
 .fancy-button i.material-icons {
     color: #1976d2;
+    padding-right: 4px;
 }
 
 app-top-bar {
@@ -96,6 +98,8 @@ app-top-bar {
     padding: 16px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 app-top-bar h1 {
